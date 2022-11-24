@@ -1,0 +1,121 @@
+#container
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 960px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#backgroundXP
+{
+    width: 960px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#barkaPlace
+{
+    height:27px;
+    width: 960px;
+    position:relative;
+    top:-70px;
+}
+
+#barka
+{
+    --poseleft:365px;
+    position: relative;
+    left: var(--poseleft);
+}
+
+#barkaIMG
+{
+    width:231px;
+    height:27px;
+}
+
+
+#spawnPlace
+{
+    height:27px;
+    width: 960px;
+    position:relative;
+    top:-540px;
+}
+
+
+.krem
+{
+    width:40px;
+    position:absolute;
+}
+
+.kremDIV
+{
+    position:absolute;
+}
+
+#score
+{
+    position:absolute;
+    font-size: 50px;
+    margin-left: 15px;
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+#start1
+{
+    position:absolute;
+    font-size: 35px;
+    width: 200px;
+    height: 80px;
+    margin-left: 380px;
+    margin-top: 50px;
+    color: white;
+    background-color: lightgrey;
+}
+
+#start2
+{
+    position:absolute;
+    font-size: 35px;
+    width: 200px;
+    height: 80px;
+    margin-left: 380px;
+    margin-top: 150px;
+    color: white;
+    background-color: lightgrey;
+}
+
+#start3
+{
+    position:absolute;
+    font-size: 35px;
+    width: 200px;
+    height: 80px;
+    margin-left: 380px;
+    margin-top: 250px;
+    color: white;
+    background-color: lightgrey;
+}
+
+#start1:hover
+{
+    filter:brightness(120%);
+    color:rgb(30, 30, 30);
+}
+
+#start2:hover
+{
+    filter:brightness(120%);
+    color:rgb(30, 30, 30);
+}
+
+#start3:hover
+{
+    filter:brightness(120%);
+    color:rgb(30, 30, 30);
+}
